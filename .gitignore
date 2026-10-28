@@ -1,0 +1,17 @@
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Ignore SQLite database files
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore generated data but include database setup scripts
+
+data/*
+!data/schema.sql
+!data/seed_data.sql
